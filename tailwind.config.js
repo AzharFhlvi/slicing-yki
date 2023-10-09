@@ -8,13 +8,14 @@ module.exports = {
     "./node_modules/flowbite/**/*.js"
   ],
   theme: {
+    fontFamily: {
+      'display': 'Poppins, sans-serif',
+    },
     colors: {
       primary: "#F14B8F",
     },
     extend: {
-      fontFamily: {
-        display: 'Poppins, ui-serif',
-      }
+
     },
   },
   plugins: [
