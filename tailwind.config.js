@@ -13,6 +13,7 @@ module.exports = {
     },
     colors: {
       primary: "#F14B8F",
+      fuchsia: colors.fuchsia,
     },
     extend: {
 
