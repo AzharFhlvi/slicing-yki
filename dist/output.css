@@ -1086,6 +1086,14 @@ input:checked + .toggle-bg {
   top: 0px;
 }
 
+.left-\[22px\] {
+  left: 22px;
+}
+
+.top-\[22px\] {
+  top: 22px;
+}
+
 .z-10 {
   z-index: 10;
 }
@@ -1307,6 +1315,14 @@ input:checked + .toggle-bg {
   height: 2px;
 }
 
+.h-24 {
+  height: 6rem;
+}
+
+.h-7 {
+  height: 1.75rem;
+}
+
 .w-1\/2 {
   width: 50%;
 }
@@ -1377,6 +1393,10 @@ input:checked + .toggle-bg {
 
 .w-\[39px\] {
   width: 39px;
+}
+
+.w-24 {
+  width: 6rem;
 }
 
 .max-w-screen-sm {
@@ -1523,6 +1543,10 @@ input:checked + .toggle-bg {
 
 .gap-5 {
   gap: 1.25rem;
+}
+
+.gap-2\.5 {
+  gap: 0.625rem;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
