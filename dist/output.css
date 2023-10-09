@@ -1227,6 +1227,18 @@ input:checked + .toggle-bg {
   margin-top: 1px;
 }
 
+.ml-5 {
+  margin-left: 1.25rem;
+}
+
+.mr-px {
+  margin-right: 1px;
+}
+
+.mt-7 {
+  margin-top: 1.75rem;
+}
+
 .line-clamp-2 {
   overflow: hidden;
   display: -webkit-box;
@@ -1264,6 +1276,18 @@ input:checked + .toggle-bg {
 
 .hidden {
   display: none;
+}
+
+.aspect-\[1\.59\] {
+  aspect-ratio: 1.59;
+}
+
+.aspect-\[1\.6\] {
+  aspect-ratio: 1.6;
+}
+
+.aspect-square {
+  aspect-ratio: 1 / 1;
 }
 
 .h-1 {
@@ -1354,6 +1378,26 @@ input:checked + .toggle-bg {
   width: 100%;
 }
 
+.w-48 {
+  width: 12rem;
+}
+
+.w-\[111px\] {
+  width: 111px;
+}
+
+.w-\[336px\] {
+  width: 336px;
+}
+
+.w-1\/4 {
+  width: 25%;
+}
+
+.w-14 {
+  width: 3.5rem;
+}
+
 .max-w-screen-sm {
   max-width: 640px;
 }
@@ -1366,12 +1410,33 @@ input:checked + .toggle-bg {
   max-width: 24rem;
 }
 
+.max-w-full {
+  max-width: 100%;
+}
+
+.max-w-lg {
+  max-width: 32rem;
+}
+
+.max-w-fit {
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+}
+
 .flex-1 {
   flex: 1 1 0%;
 }
 
+.flex-\[1_0_0\] {
+  flex: 1 0 0;
+}
+
 .flex-shrink {
   flex-shrink: 1;
+}
+
+.shrink-0 {
+  flex-shrink: 0;
 }
 
 .-translate-x-full {
@@ -1440,6 +1505,10 @@ input:checked + .toggle-bg {
   grid-template-columns: repeat(7, minmax(0, 1fr));
 }
 
+.flex-row {
+  flex-direction: row;
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -1476,6 +1545,10 @@ input:checked + .toggle-bg {
   justify-content: space-between;
 }
 
+.gap-1 {
+  gap: 0.25rem;
+}
+
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
   margin-right: calc(0.5rem * var(--tw-space-x-reverse));
@@ -1504,6 +1577,10 @@ input:checked + .toggle-bg {
   align-self: center;
 }
 
+.self-stretch {
+  align-self: stretch;
+}
+
 .overflow-hidden {
   overflow: hidden;
 }
@@ -1526,6 +1603,10 @@ input:checked + .toggle-bg {
 
 .rounded-xl {
   border-radius: 0.75rem;
+}
+
+.rounded-3xl {
+  border-radius: 1.5rem;
 }
 
 .rounded-l-lg {
@@ -1667,6 +1748,16 @@ input:checked + .toggle-bg {
 
 .bg-opacity-50 {
   --tw-bg-opacity: 0.5;
+}
+
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.object-center {
+  -o-object-position: center;
+     object-position: center;
 }
 
 .p-1 {
