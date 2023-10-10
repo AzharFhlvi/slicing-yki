@@ -1154,6 +1154,11 @@ input:checked + .toggle-bg {
   margin-bottom: 1rem;
 }
 
+.my-2 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
 .-mb-px {
   margin-bottom: -1px;
 }
@@ -1387,6 +1392,26 @@ input:checked + .toggle-bg {
 
 .w-11\/12 {
   width: 91.666667%;
+}
+
+.w-9\/12 {
+  width: 75%;
+}
+
+.w-5\/12 {
+  width: 41.666667%;
+}
+
+.w-1\/12 {
+  width: 8.333333%;
+}
+
+.w-12 {
+  width: 3rem;
+}
+
+.w-52 {
+  width: 13rem;
 }
 
 .max-w-fit {
